@@ -11,28 +11,28 @@
         <h1 class="text-5xl uppercase">Pita</h1>
 
         <ul class="flex items-center gap-14 text-lg">
-            <li class="cursor-pointer">Avantages</li>
-            <li class="cursor-pointer">Notre histoire</li>
-            <li class="cursor-pointer">Nous contacter</li>
+            <li class="cursor-pointer"><a href="#avatanges">Avantages</a></li>
+            <li class="cursor-pointer"><a href="#histoire">Notre histoire</a></li>
+            <li class="cursor-pointer"><a href="#footer">Nous contacter</a></li>
             <li>
-                <button class="h-[50px] px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px]">Rejoins la commu !</button>
+                <a href="#footer" class="inline-block h-[50px] px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px]">Rejoins la commu !</a>
             </li>
         </ul>
     </nav>
 
-    <section class="flex mt-[275px] ml-[calc(7.5%+20px)] mb-[230px]">
+    <section class="flex mt-[275px] ml-[calc(7.5%+20px)]">
         <div class="w-1/2 pr-[100px]">
             <h2 class="font-bold text-6xl">La Food étudiante réinventée</h2>
             <br />
             <p>Manger mieux, économiser, rencontrer de nouvelles personnes sur vos campus universitaires grâce à l'application PITA. Reçois chez toi ou va chez un cuisinier en herbe pour partager un repas fait maison et à moindre coût !</p>
-            <button class="h-[50px] mt-16 px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px]">Rejoins la commu !</button>
+            <a href="#footer" class="inline-block h-[50px] mt-16 px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px]">Rejoins la commu !</a>
         </div>
         <div class="w-1/2 bg-[#E6FFBE] h-[660px] rounded-l-[25px]">
             <!-- mockup -->
         </div>
     </section>
 
-    <section class="mx-[7.5%] mb-[230px]">
+    <section id="avatanges" class="mx-[7.5%] pt-[230px]">
         <h2 class="text-4xl font-bold ml-5 mb-20">Les avantages de Pita</h2>
 
         <div class="w-full flex justify-around px-[160px] py-[100px] bg-[#E3FDFF] rounded-[25px] mb-[200px]">
@@ -59,7 +59,7 @@
         <div>mockup</div>
     </section>
 
-    <section class="mx-[7.5%] mb-[230px]">
+    <section class="mx-[7.5%] pt-[230px]">
         <h2 class="text-4xl font-bold ml-5 mb-28">D’après les étudiants de toute la France</h2>
 
         <div class="grid grid-cols-3 gap-16">
@@ -87,12 +87,19 @@
         </div>
     </section>
 
-    <section class="flex ml-[calc(7.5%+20px)] mr-[7.5%] mb-[230px]">
+    <section id="histoire" class="flex ml-[calc(7.5%+20px)] mr-[7.5%] pt-[230px] mb-[230px]">
         <div class="w-1/2 pr-[100px]">
             <h2 class="text-4xl font-bold mb-20">Notre histoire</h2>
             <p class="text-lg">Nous sommes un groupe de 6 étudiants concernés et impliqués dans la problématique de pouvoir manger mieux, mais surtout à sa faim. Nous avons repensé la manière de consommer sa nourriture tout en liant qualité, convivialité et rentabilité. Ainsi nous souhaitons améliorer au maximum la qualité de vie des étudiants en France, souvent isolés et parfois négligés. Ensemble, nous avons créé l’application PITA dans la cadre d’un challenge organisé par notre école.</p>
         </div>
         <div class="w-1/2 bg-gray-100"></div>
     </section>
+
+    <footer id="footer" class="bg-[#E3FDFF] pt-20 rounded-t-[50px]">
+
+        <div class="bg-[#6BD2D8] p-5">
+            <p class="text-center text-white text-lg">All rights reserved. © Pita 2023</p>
+        </div>
+    </footer>
 </body>
 </html>

@@ -2,6 +2,7 @@
 
 *, ::before, ::after {
     font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
 }
 
 h1 {
