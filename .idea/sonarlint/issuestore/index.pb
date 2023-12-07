@@ -13,3 +13,5 @@ I
 assets/icons/linkedin.svg,8/8/88bf997daf3cf41b47534e3d4f64ca4326d32e24
 G
 assets/icons/tiktok.svg,3/3/333c1f5ca1d535c65f29638ece8ced15b86f4831
+@
+assets/js/app.js,a/1/a100a8b5c188567ddcb647c9e579d4f07284fe87
