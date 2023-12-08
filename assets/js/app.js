@@ -105,7 +105,7 @@ document.getElementById("newsletter-form").addEventListener("submit", (e) => {
 // }
 
 async function sendNewsletter(body) {
-    await fetch("http://195.35.28.188:3000/newsletter/new", {
+    await fetch("https://pita-mds.fr/newsletter/new", {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
