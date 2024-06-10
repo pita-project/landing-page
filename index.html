@@ -1,192 +1,368 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>PITA</title>
-    <link rel="icon" href="assets/img/favicon.webp">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.webp" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="upgrade-insecure-requests"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-    <nav class="fixed z-10 top-[30px] left-[2%] right-[2%] lg:top-[50px] lg:left-[7.5%] lg:right-[7.5%] flex justify-between items-center py-6 px-6 lg:px-12 bg-white rounded-3xl drop-shadow-[0_4px_50px_rgba(0,0,0,0.25)]">
-        <h1 class="text-3xl lg:text-5xl uppercase">PITA</h1>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav
+      class="fixed z-10 top-[30px] left-[2%] right-[2%] lg:top-[50px] lg:left-[7.5%] lg:right-[7.5%] flex justify-between items-center py-6 px-6 lg:px-12 bg-white rounded-3xl drop-shadow-[0_4px_50px_rgba(0,0,0,0.25)]"
+    >
+      <img
+        src="assets/icons/bars-solid.svg"
+        alt="Ouvrir le menu"
+        class="w-6 h-6 lg:hidden"
+      />
 
-        <ul class="flex items-center gap-8 lg:gap-14 lg:text-lg">
-            <li class="cursor-pointer"><a href="#avatanges">Avantages</a></li>
-            <li class="cursor-pointer"><a href="#histoire">Notre histoire</a></li>
-            <!-- <li class="cursor-pointer"><a href="#contact">Nous contacter</a></li>-->
-            <li>
-                <a href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277" target="_blank" class="inline-block h-[50px] px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px] border border-2 border-[#97C747] hover:text-[#97C747] hover:bg-white">
-                    On se fait un PITA ?
-                </a>
-            </li>
-        </ul>
+      <h1 class="text-3xl lg:text-5xl uppercase">PITA</h1>
+
+      <ul class="hidden lg:flex items-center gap-8 lg:gap-14 lg:text-lg">
+        <li class="cursor-pointer"><a href="#avatanges">Avantages</a></li>
+        <li class="cursor-pointer"><a href="#histoire">Notre histoire</a></li>
+        <!-- <li class="cursor-pointer"><a href="#contact">Nous contacter</a></li>-->
+        <li>
+          <a
+            href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277"
+            target="_blank"
+            class="inline-block h-[50px] px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px] border border-2 border-[#97C747] hover:text-[#97C747] hover:bg-white"
+          >
+            On se fait un PITA ?
+          </a>
+        </li>
+      </ul>
     </nav>
 
-    <section class="flex mt-[275px] ml-[calc(7.5%+20px)]">
-        <div class="w-1/2 pr-[100px] xl:pr-[150px]">
-            <h2 class="font-bold text-6xl mt-16">Reçois chez toi ou va chez un cuisinier en herbe pour partager un repas maison à moindre coût !</h2>
-            <br />
-            <p>Manger mieux, économiser, rencontrer de nouvelles personnes sur vos campus universitaires grâce à l'application PITA. La Food étudiante réinventée !</p>
-            <a href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277" target="_blank" class="inline-block h-[50px] mt-16 px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px] border border-2 border-[#97C747] hover:text-[#97C747] hover:bg-white">
-                On se fait un PITA ?
-            </a>
-        </div>
-        <div class="w-1/2 flex justify-center bg-[#E6FFBE] h-[600px] rounded-l-[25px]">
-            <img src="assets/img/mockup.webp" alt="mockup" loading="lazy" class="h-full" />
-        </div>
+    <section class="flex mt-[200px] lg:mt-[275px] ml-[calc(7.5%+20px)]">
+      <div
+        class="w-full lg:w-1/2 pr-[calc(7.5%+20px)] lg:pr-[100px] xl:pr-[150px]"
+      >
+        <h2 class="font-bold text-3xl lg:text-4xl xl:text-6xl mt-16">
+          Reçois chez toi ou va chez un cuisinier en herbe pour partager un
+          repas maison à moindre coût !
+        </h2>
+        <br />
+        <p>
+          Manger mieux, économiser, rencontrer de nouvelles personnes sur vos
+          campus universitaires grâce à l'application PITA. La Food étudiante
+          réinventée !
+        </p>
+        <a
+          href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277"
+          target="_blank"
+          class="inline-block h-[50px] mt-16 px-11 bg-[#97C747] text-white rounded-[15px] leading-[50px] border border-2 border-[#97C747] hover:text-[#97C747] hover:bg-white"
+        >
+          On se fait un PITA ?
+        </a>
+      </div>
+      <div
+        class="hidden w-1/2 lg:flex justify-center bg-[#E6FFBE] h-[600px] rounded-l-[25px]"
+      >
+        <img
+          src="assets/img/mockup.webp"
+          alt="mockup"
+          loading="lazy"
+          class="h-full"
+        />
+      </div>
     </section>
 
-    <section id="avatanges" class="mx-[7.5%] pt-[230px]">
-        <h2 class="text-4xl font-bold ml-5 mb-20">Les avantages de PITA</h2>
+    <section id="avatanges" class="mx-[7.5%] pt-[170px] lg:pt-[230px]">
+      <h2 class="text-3xl lg:text-4xl font-bold lg:ml-5 mb-10 lg:mb-20">
+        Les avantages de PITA
+      </h2>
 
-        <div class="w-full flex flex-wrap justify-around px-[160px] py-[100px] bg-[#E3FDFF] rounded-[25px] mb-[200px]">
-            <div class="w-[230px] flex flex-col items-center gap-[55px]">
-                <div class="w-[100px] h-[100px] flex justify-center items-center">
-                    <img src="assets/icons/food-bank.svg" alt="Icon food bank" loading="lazy" />
-                </div>
-                <p class="text-center">Diversifie tes plats, <strong>profite d’un bon repas</strong> ou fais découvrir tes talents de cuistot.</p>
-            </div>
-            <div class="w-[230px] flex flex-col items-center gap-[55px]">
-                <div class="w-[100px] h-[100px] flex justify-center items-center">
-                    <img src="assets/icons/users.svg" alt="Icon food bank" loading="lazy" />
-                </div>
-                <p class="text-center">Fais de <strong>nouvelles connaissances</strong> dès l’arrivée sur ton nouveau campus ou dans ta nouvelle ville.</p>
-            </div>
-            <div class="w-[230px] flex flex-col items-center gap-[55px]">
-                <div class="w-[100px] h-[100px] flex justify-center items-center">
-                    <img src="assets/icons/wallet.svg" alt="Icon food bank" loading="lazy" />
-                </div>
-                <p class="text-center">Cumule des avantages et <strong>bénéficie de réductions</strong> pour que les fins de mois ne soient plus un cauchemar. </p>
-            </div>
+      <div
+        class="w-full flex flex-wrap justify-around gap-10 lg:px-[160px] py-[50px] lg:py-[100px] bg-[#E3FDFF] rounded-[25px] mb-[100px] lg:mb-[200px]"
+      >
+        <div class="w-[230px] flex flex-col items-center gap-10 lg:gap-[55px]">
+          <div class="w-[100px] h-[100px] flex justify-center items-center">
+            <img
+              src="assets/icons/food-bank.svg"
+              alt="Icon food bank"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-center">
+            Diversifie tes plats, <strong>profite d’un bon repas</strong> ou
+            fais découvrir tes talents de cuistot.
+          </p>
         </div>
+        <div class="w-[230px] flex flex-col items-center gap-[55px]">
+          <div class="w-[100px] h-[100px] flex justify-center items-center">
+            <img
+              src="assets/icons/users.svg"
+              alt="Icon food bank"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-center">
+            Fais de <strong>nouvelles connaissances</strong> dès l’arrivée sur
+            ton nouveau campus ou dans ta nouvelle ville.
+          </p>
+        </div>
+        <div class="w-[230px] flex flex-col items-center gap-[55px]">
+          <div class="w-[100px] h-[100px] flex justify-center items-center">
+            <img
+              src="assets/icons/wallet.svg"
+              alt="Icon food bank"
+              loading="lazy"
+            />
+          </div>
+          <p class="text-center">
+            Cumule des avantages et
+            <strong>bénéficie de réductions</strong> pour que les fins de mois
+            ne soient plus un cauchemar.
+          </p>
+        </div>
+      </div>
 
-        <div class="flex justify-center flex-wrap gap-20">
-            <div class="w-[330px] flex flex-col items-center">
-                <img src="assets/img/mockup-mobile-1.webp" alt="mockup mobile 1" />
-                <p class="text-center">Rentre ton plat directement sur l’application.</p>
-            </div>
-            <div class="w-[330px] flex flex-col items-center">
-                <img src="assets/img/mockup-mobile-2.webp" alt="mockup mobile 2" />
-                <p class="text-center">Recherche ton dîner idéal en fonction de nombreux critères.</p>
-            </div>
-            <div class="w-[330px] flex flex-col items-center">
-                <img src="assets/img/mockup-mobile-3.webp" alt="mockup mobile 3" />
-                <p class="text-center">Trouve l’hôte qui propose ce que tu recherches !</p>
-            </div>
+      <div class="flex justify-center flex-wrap gap-20">
+        <div class="w-[330px] flex flex-col items-center">
+          <img src="assets/img/mockup-mobile-1.webp" alt="mockup mobile 1" />
+          <p class="text-center">
+            Rentre ton plat directement sur l’application.
+          </p>
         </div>
+        <div class="w-[330px] flex flex-col items-center">
+          <img src="assets/img/mockup-mobile-2.webp" alt="mockup mobile 2" />
+          <p class="text-center">
+            Recherche ton dîner idéal en fonction de nombreux critères.
+          </p>
+        </div>
+        <div class="w-[330px] flex flex-col items-center">
+          <img src="assets/img/mockup-mobile-3.webp" alt="mockup mobile 3" />
+          <p class="text-center">
+            Trouve l’hôte qui propose ce que tu recherches !
+          </p>
+        </div>
+      </div>
     </section>
 
-    <section class="mx-[7.5%] pt-[230px]">
-        <h2 class="text-4xl font-bold ml-5 mb-28">D’après les étudiants de toute la France</h2>
+    <section class="mx-[7.5%] pt-[170px] lg:pt-[230px]">
+      <h2 class="text-3xl lg:text-4xl font-bold lg:ml-5 mb-20 lg:mb-28">
+        D’après les étudiants de toute la France
+      </h2>
 
-        <div class="grid grid-cols-1 xl:grid-cols-3 gap-16">
-            <div class="relative lg:text-lg py-5 px-6 ml-[60px] bg-[#E6FFBE] rounded-[25px]">
-                <img src="assets/img/leane.webp" alt="photo de Léane" loading="lazy" class="w-[140px] h-[140px] rounded-full absolute top-0 left-0 -translate-y-1/3 -translate-x-1/3" />
-                <div class="ml-20">
-                    <h3 class="font-bold mb-3">Léane, étudiante à Bordeaux</h3>
-                    <p>“La cuisine a toujours été un sujet important de ma vie étudiante. Parfois j’aimerais mieux manger, mais je ne trouve ni le temps, ni l’envie (et parfois ni l’argent aussi...).”</p>
-                </div>
-            </div>
-            <div class="relative lg:text-lg py-5 px-6 ml-[60px] bg-[#E6FFBE] rounded-[25px]">
-                <img src="assets/img/clement.webp" alt="photo de Clément" loading="lazy" class="w-[140px] h-[140px] rounded-full absolute top-0 left-0 -translate-y-1/3 -translate-x-1/3" />
-                <div class="ml-20">
-                    <h3 class="font-bold mb-3">Clément, étudiant à Orléans</h3>
-                    <p>“Quand je cuisine, c’est principalement pour me nourrir. J’essaie quand même de faire des plats diversifiés. J’aime bien recevoir des amis et leur préparer à manger.”</p>
-                </div>
-            </div>
-            <div class="relative lg:text-lg py-5 px-6 ml-[60px] bg-[#E6FFBE] rounded-[25px]">
-                <img src="assets/img/alexis.webp" alt="photo d'Alexis" loading="lazy" class="w-[140px] h-[140px] rounded-full absolute top-0 left-0 -translate-y-1/3 -translate-x-1/3" />
-                <div class="ml-20">
-                    <h3 class="font-bold mb-3">Alexis, chargé de com au Mans</h3>
-                    <p>“Je viens à peine de rentrer dans la vie active dans une toute nouvelle ville. Ça fait beaucoup de changements d’un coup et je sais pas trop où rencontrer du monde. Par contre je suis plutôt bon cuisinier.”</p>
-                </div>
-            </div>
+      <div class="grid grid-cols-1 xl:grid-cols-3 gap-16">
+        <div
+          class="relative lg:text-lg py-5 px-6 ml-[7.5%] lg:ml-[60px] bg-[#E6FFBE] rounded-[25px]"
+        >
+          <img
+            src="assets/img/leane.webp"
+            alt="photo de Léane"
+            loading="lazy"
+            class="w-[100px] h-[100px] lg:w-[140px] lg:h-[140px] rounded-full absolute top-0 left-0 -translate-y-1/4 -translate-x-1/4 lg:-translate-y-1/3 lg:-translate-x-1/3"
+          />
+          <div class="ml-16 lg:ml-20">
+            <h3 class="font-bold mb-3">Léane, étudiante à Bordeaux</h3>
+            <p>
+              “La cuisine a toujours été un sujet important de ma vie étudiante.
+              Parfois j’aimerais mieux manger, mais je ne trouve ni le temps, ni
+              l’envie (et parfois ni l’argent aussi...).”
+            </p>
+          </div>
         </div>
+        <div
+          class="relative lg:text-lg py-5 px-6 ml-[7.5%] lg:ml-[60px] bg-[#E6FFBE] rounded-[25px]"
+        >
+          <img
+            src="assets/img/clement.webp"
+            alt="photo de Clément"
+            loading="lazy"
+            class="w-[100px] h-[100px] lg:w-[140px] lg:h-[140px] rounded-full absolute top-0 left-0 -translate-y-1/4 -translate-x-1/4 lg:-translate-y-1/3 lg:-translate-x-1/3"
+          />
+          <div class="ml-16 lg:ml-20">
+            <h3 class="font-bold mb-3">Clément, étudiant à Orléans</h3>
+            <p>
+              “Quand je cuisine, c’est principalement pour me nourrir. J’essaie
+              quand même de faire des plats diversifiés. J’aime bien recevoir
+              des amis et leur préparer à manger.”
+            </p>
+          </div>
+        </div>
+        <div
+          class="relative lg:text-lg py-5 px-6 ml-[7.5%] lg:ml-[60px] bg-[#E6FFBE] rounded-[25px]"
+        >
+          <img
+            src="assets/img/alexis.webp"
+            alt="photo d'Alexis"
+            loading="lazy"
+            class="w-[100px] h-[100px] lg:w-[140px] lg:h-[140px] rounded-full absolute top-0 left-0 -translate-y-1/4 -translate-x-1/4 lg:-translate-y-1/3 lg:-translate-x-1/3"
+          />
+          <div class="ml-16 lg:ml-20">
+            <h3 class="font-bold mb-3">Alexis, chargé de com au Mans</h3>
+            <p>
+              “Je viens à peine de rentrer dans la vie active dans une toute
+              nouvelle ville. Ça fait beaucoup de changements d’un coup et je
+              sais pas trop où rencontrer du monde. Par contre je suis plutôt
+              bon cuisinier.”
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section id="histoire" class="flex ml-[calc(7.5%+20px)] mr-[7.5%] pt-[230px]">
-        <div class="w-1/2 pr-[100px]">
-            <h2 class="text-4xl font-bold mb-20">Notre histoire</h2>
-            <p class="lg:text-lg">Nous sommes un groupe de 6 étudiants concernés et impliqués dans la problématique de pouvoir manger mieux, mais surtout à sa faim. Nous avons repensé la manière de consommer sa nourriture tout en liant qualité, convivialité et rentabilité. Ainsi nous souhaitons améliorer au maximum la qualité de vie des étudiants en France, souvent isolés et parfois négligés. Ensemble, nous avons créé l’application PITA dans la cadre d’un challenge organisé par notre école.</p>
-        </div>
-        <div class="w-1/2">
-            <img src="assets/img/ekip.webp" alt="L'ekip" class="rounded-[25px]" />
-        </div>
+    <section
+      id="histoire"
+      class="flex flex-col lg:flex-row gap-12 lg:gap-0 ml-[calc(7.5%+20px)] mr-[calc(7.5%+20px)] pt-[170px] lg:pt-[230px]"
+    >
+      <div class="w-full lg:w-1/2 lg:pr-[100px]">
+        <h2 class="text-3xl lg:text-4xl font-bold lg:ml-5 mb-10 lg:mb-20">
+          Notre histoire
+        </h2>
+        <p class="lg:text-lg text-justify">
+          Nous sommes un groupe de 6 étudiants concernés et impliqués dans la
+          problématique de pouvoir manger mieux, mais surtout à sa faim. Nous
+          avons repensé la manière de consommer sa nourriture tout en liant
+          qualité, convivialité et rentabilité. Ainsi nous souhaitons améliorer
+          au maximum la qualité de vie des étudiants en France, souvent isolés
+          et parfois négligés. Ensemble, nous avons créé l’application PITA dans
+          la cadre d’un challenge organisé par notre école.
+        </p>
+      </div>
+      <div class="w-full lg:w-1/2">
+        <img src="assets/img/ekip.webp" alt="L'ekip" class="rounded-[25px]" />
+      </div>
     </section>
 
-    <div id="contact" class="pt-[230px]"></div>
+    <div id="contact" class="pt-[170px] lg:pt-[230px]"></div>
     <footer class="bg-[#E3FDFF] pt-20 rounded-t-[50px]">
-        <!-- <h2 class="mx-[7.5%] text-4xl font-bold mb-2">Nous contacter</h2>-->
-        <!-- <div class="flex px-[7.5%] mb-[230px]">-->
-        <!-- <div class="w-1/2">-->
-        <!-- <img src="assets/img/logo.webp" alt="Logo PITA" loading="lazy" class="h-[450px]" />-->
-        <!-- </div>-->
-        <!-- <form id="contact-form" class="w-1/2 flex flex-col gap-4">-->
-        <!-- <div class="flex gap-6">-->
-        <!-- <input id="lastname" type="text" placeholder="Nom" class="w-full py-4 px-7 rounded-[10px] lg:text-lg border border-white">-->
-        <!-- <input id="firstname" type="text" placeholder="Prénom" class="w-full py-4 px-7 rounded-[10px] lg:text-lg border border-white">-->
-        <!-- </div>-->
-        <!-- <input id="email" type="email" placeholder="Email" class="py-4 px-7 rounded-[10px] lg:text-lg border border-white">-->
-        <!-- <textarea id="content" placeholder="Votre message" class="py-4 px-7 rounded-[10px] lg:text-lg border border-white"></textarea>-->
-        <!-- <button id="btn-contact" class="w-fit bg-[#6BD2D8] text-white px-12 py-2 lg:text-lg rounded-[15px] mt-2">Envoyer !</button>-->
-        <!-- </form>-->
-        <!-- </div>-->
+      <!-- <h2 class="mx-[7.5%] text-4xl font-bold mb-2">Nous contacter</h2>-->
+      <!-- <div class="flex px-[7.5%] mb-[230px]">-->
+      <!-- <div class="w-1/2">-->
+      <!-- <img src="assets/img/logo.webp" alt="Logo PITA" loading="lazy" class="h-[450px]" />-->
+      <!-- </div>-->
+      <!-- <form id="contact-form" class="w-1/2 flex flex-col gap-4">-->
+      <!-- <div class="flex gap-6">-->
+      <!-- <input id="lastname" type="text" placeholder="Nom" class="w-full py-4 px-7 rounded-[10px] lg:text-lg border border-white">-->
+      <!-- <input id="firstname" type="text" placeholder="Prénom" class="w-full py-4 px-7 rounded-[10px] lg:text-lg border border-white">-->
+      <!-- </div>-->
+      <!-- <input id="email" type="email" placeholder="Email" class="py-4 px-7 rounded-[10px] lg:text-lg border border-white">-->
+      <!-- <textarea id="content" placeholder="Votre message" class="py-4 px-7 rounded-[10px] lg:text-lg border border-white"></textarea>-->
+      <!-- <button id="btn-contact" class="w-fit bg-[#6BD2D8] text-white px-12 py-2 lg:text-lg rounded-[15px] mt-2">Envoyer !</button>-->
+      <!-- </form>-->
+      <!-- </div>-->
 
-        <div id="footer" class="grid grid-cols-4 xl:grid-cols-6 px-[7.5%] mb-[100px]">
-            <div class="col-span-2">
-                <h1 class="text-8xl	uppercase mb-14">PITA</h1>
-                <a href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277" target="_blank" class="block mb-4">
-                    <img src="assets/img/app-store.png" alt="app store" loading="lazy" class="w-[140px]" />
-                </a>
-                <a href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277" target="_blank" class="block">
-                    <img src="assets/img/google-play.png" alt="google play store" loading="lazy" class="w-[140px]" />
-                </a>
-            </div>
-            <div>
-                <h3 class="text-2xl	font-bold mb-8">Aide</h3>
-                <ul class="flex flex-col gap-4">
-                    <li>Centre d’aide</li>
-                    <li>Hôte</li>
-                    <li>Convive</li>
-                    <li>Confiance et sécurité</li>
-                </ul>
-            </div>
-            <div>
-                <h3 class="text-2xl	font-bold mb-8">Politique</h3>
-                <ul class="flex flex-col gap-4">
-                    <li>Politique de confidentialité</li>
-                    <li>Politique des cookies</li>
-                    <li>Paramètres des cookies</li>
-                    <li>Termes et conditions</li>
-                    <li>Conditions de vente</li>
-                </ul>
-            </div>
-            <div class="col-span-4 xl:col-span-2 mt-8 xl:mt-0 xl:ml-10">
-                <h3 class="text-2xl	font-bold mb-8">Je veux être informé des actualités PITA</h3>
+      <div
+        id="footer"
+        class="flex flex-col lg:grid grid-cols-4 xl:grid-cols-6 px-[7.5%] mb-16 lg:mb-[100px]"
+      >
+        <div class="col-span-2 mb-8 lg:mb-0">
+          <h1
+            class="text-center lg:text-start text-8xl uppercase mb-8 lg:mb-14"
+          >
+            PITA
+          </h1>
 
-                <div class="flex flex-col gap-6">
-                    <form id="newsletter-form">
-                        <input id="newsletter" type="email" placeholder="Email" class="w-full py-4 px-7 rounded-[10px] lg:text-lg border border-white mb-4">
-                        <label id="accept" class="inline-block w-full mb-6">
-                            <input id="checkbox" type="checkbox" class="mr-2" >
-                            J'accepte de recevoir la newsletter de PITA
-                        </label>
-                        <button class="w-fit bg-[#6BD2D8] text-white px-12 py-2 lg:text-lg rounded-[15px] border border-2 border-[#6BD2D8] hover:text-[#6BD2D8] hover:bg-[#E3FDFF]">Je m'inscris</button>
-                    </form>
-                    <div class="flex gap-7 mt-2">
-                        <img src="assets/icons/instagram.svg" alt="icon instagram" loading="lazy" class="w-7 h-7" />
-                        <img src="assets/icons/tiktok.svg" alt="icon tiktok" loading="lazy" class="w-7 h-7" />
-                        <img src="assets/icons/linkedin.svg" alt="icon linkedin" loading="lazy" class="w-7 h-7" />
-                    </div>
-                </div>
-            </div>
+          <div
+            class="flex lg:flex-col gap-2 lg:gap-4 justify-center items-center lg:items-start"
+          >
+            <a
+              href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277"
+              target="_blank"
+              class="block"
+            >
+              <img
+                src="assets/img/app-store.png"
+                alt="app store"
+                loading="lazy"
+                class="h-[40px] lg:w-[140px]"
+              />
+            </a>
+            <a
+              href="https://www.figma.com/proto/h9749J1QW3CiBzm6v8u4yo/Appli-PITA?type=design&node-id=24-277&t=CLERZX68eM5JDpWW-0&scaling=scale-down&page-id=0%3A1&starting-point-node-id=24%3A277"
+              target="_blank"
+              class="block"
+            >
+              <img
+                src="assets/img/google-play.png"
+                alt="google play store"
+                loading="lazy"
+                class="h-[46px] lg:w-[140px]"
+              />
+            </a>
+          </div>
         </div>
+        <div class="mb-8 lg:mb-0">
+          <h3 class="text-2xl font-bold mb-8">Aide</h3>
+          <ul class="flex flex-col gap-4">
+            <li>Centre d’aide</li>
+            <li>Hôte</li>
+            <li>Convive</li>
+            <li>Confiance et sécurité</li>
+          </ul>
+        </div>
+        <div class="mb-8 lg:mb-0">
+          <h3 class="text-2xl font-bold mb-8">Politique</h3>
+          <ul class="flex flex-col gap-4">
+            <li>Politique de confidentialité</li>
+            <li>Politique des cookies</li>
+            <li>Paramètres des cookies</li>
+            <li>Termes et conditions</li>
+            <li>Conditions de vente</li>
+          </ul>
+        </div>
+        <div class="col-span-4 xl:col-span-2 mt-8 xl:mt-0 xl:ml-10">
+          <h3 class="text-2xl font-bold mb-8">
+            Je veux être informé des actualités PITA
+          </h3>
 
-        <p class="bg-[#6BD2D8] p-5 text-center text-white lg:text-lg">All rights reserved. © PITA 2023</p>
+          <div class="flex flex-col gap-6">
+            <form id="newsletter-form">
+              <input
+                id="newsletter"
+                type="email"
+                placeholder="Email"
+                class="w-full py-4 px-7 rounded-[10px] lg:text-lg border border-white mb-4"
+              />
+              <label id="accept" class="inline-block w-full mb-6">
+                <input id="checkbox" type="checkbox" class="mr-2" />
+                J'accepte de recevoir la newsletter de PITA
+              </label>
+              <button
+                class="w-fit bg-[#6BD2D8] text-white px-12 py-2 lg:text-lg rounded-[15px] border border-2 border-[#6BD2D8] hover:text-[#6BD2D8] hover:bg-[#E3FDFF]"
+              >
+                Je m'inscris
+              </button>
+            </form>
+            <div class="flex gap-7 mt-2">
+              <img
+                src="assets/icons/instagram.svg"
+                alt="icon instagram"
+                loading="lazy"
+                class="w-7 h-7"
+              />
+              <img
+                src="assets/icons/tiktok.svg"
+                alt="icon tiktok"
+                loading="lazy"
+                class="w-7 h-7"
+              />
+              <img
+                src="assets/icons/linkedin.svg"
+                alt="icon linkedin"
+                loading="lazy"
+                class="w-7 h-7"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="bg-[#6BD2D8] p-5 text-center text-white lg:text-lg">
+        All rights reserved. © PITA 2023
+      </p>
     </footer>
 
     <script src="assets/js/app.js"></script>
-</body>
+  </body>
 </html>
